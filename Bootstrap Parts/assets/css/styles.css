@@ -1,0 +1,1402 @@
+section{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.icon{
+    font-family: 'icomoon';
+}
+
+/* Inicio de Main */
+.redbtn{
+    background-color: red;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    height: fit-content;
+    width: fit-content;
+    text-align: center;
+}
+
+
+.mainpage{
+    color: white;
+    background-image: url(../imgs/herobg.png);
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+h1{
+    font-size: 45px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    filter: brightness(1000%);
+}
+
+.subtitle{
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.mainpage input{
+    padding: 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    width: 30%;
+    margin-right: -110px;
+}
+
+.signupcont{
+    display: flex;
+}
+/* Fin de Main */
+
+/* Inicio de Barra de marcas */
+.rowd{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    background-color: white;
+}
+
+.marca{
+    height: 30px;
+    filter: grayscale(100%);
+}
+/* Fin de Barra de marcas */
+
+/* Inicio de About Us */
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    align-items: center;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.about{
+    background-color: lightcoral;
+    color: red;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+h2{
+    font-size: 35px;
+    padding-bottom: 0;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-top: 0;
+}
+
+.text{
+    font-size: 18px;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+h3{
+    font-size: 30px;
+    padding-bottom: 0;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-top: 0;
+    margin-top: 30px;
+}
+
+.aboutcard{
+    background-color: white;
+    padding: 30px 50px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 270px;
+    height: fit-content;
+}
+
+.aboutcards{
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.allcards{
+    flex-grow: 1;
+    margin-left: 50px;
+}
+
+.abus{
+    background-color: lightgray;
+    padding-top: 40px;
+}
+
+.offset{
+    margin-top: -20px;
+}
+
+.allcards span{
+    background-color: lightcoral;
+    color: red;
+    height: fit-content;
+    width: fit-content;
+    padding: 12px 20px;
+    border-radius: 100px;
+}
+
+.tower::after{
+    content: "\e906"; /* Contenido del logo */
+}
+
+.medic::after{
+    content: "\e906"; /* Contenido del logo */
+}
+
+.figure::after{
+    content: "\e906"; /* Contenido del logo */
+}
+
+.upchart::after{
+    content: "\e906"; /* Contenido del logo */
+}
+
+.rarrow::after{
+    content: "\e906"; /* Contenido del logo */
+    margin-left: 5px;
+}
+/* Fin de About Us */
+
+/* Inicio de Stats line */
+.statsline{
+    background-image: url(../imgs/statsbg.png);
+    height: 300px;
+    background-size:     cover;                   
+    background-repeat:   no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nstat{
+    font-size: 55px;
+    color: white;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.dstat{
+    font-size: 25px;
+    color: lightgrey;
+    margin-top: 10px;
+    text-align: center;
+}
+/* Fin de Stats line */
+
+/* Inicio de Services */
+.sectitle{
+    display: flex;
+    align-items: center;
+    align-self: center;
+}
+
+.redline{
+    background-color: red;
+    height: 2px;
+    width: 60px;
+    margin: 10px;
+}
+
+.services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.servicerow{
+    display: flex;
+    justify-content: space-evenly;
+    width: 95%;
+}
+
+.service{
+    width: 45%
+}
+
+.decoline .redline{
+    width: 5%;
+    margin-left: 0px;
+    height: 3px;
+    margin-right: 5px;
+}
+
+.decoline{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.grayline{
+    background-color: lightgray;
+    height: 3px;
+    width: 95%;
+    margin: 10px;
+    margin-left: 0px;
+}
+
+.servtitle{
+    font-size: 22px;
+}
+
+.servtext{
+    font-size: 16px;
+}
+
+.servicecont{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.services .text{
+    margin-bottom: 40px;
+}
+
+.sun::after{
+    content: "\e906"; /* Contenido del logo */
+    color: gray;
+}
+
+.signal::after{
+    content: "\e906"; /* Contenido del logo */
+    color: gray;
+}
+
+.binoculars::after{
+    content: "\e906"; /* Contenido del logo */
+    color: gray;
+}
+
+.calendar::after{
+    content: "\e906"; /* Contenido del logo */
+    color: gray;
+}
+
+.cardcheck::after{
+    content: "\e906"; /* Contenido del logo */
+    color: gray;
+}
+
+.suitcase::after{
+    content: "\e906"; /* Contenido del logo */
+    color: gray;
+}
+
+.redcircle{
+    background-color: red;
+    height: 20px;
+    width: 20px;
+    border-radius: 100px;
+    filter: transparency(50%);
+}
+/* Fin de Services */
+
+/* Inicio de Features */
+.features{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.featcont{
+    width: 85%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h4{
+    margin: 0;
+    font-size: 26px;
+}
+
+.featcont .text{
+    font-size: 18px;
+    margin: 15px 0 15px 0;
+}
+
+
+.featimg1{
+    border: 5px solid gray;
+    margin-top: -270px;
+    margin-right: -270px;
+}
+
+.featimg2{
+    border: 5px solid gray;
+}
+
+/* Fin de Features */
+
+/* Inicio de Portfolio */
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.portfoliocont{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.portbtn{
+    border: none;
+    border-radius: 50px;
+    background-color: transparent;
+    padding: 5px 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.portfolionav{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.all{
+    color: white;
+    background-color: red;
+}
+
+.portfoliocont img{
+    padding: 10px;
+    width:300px;
+}
+/* Fin de Portfolio */
+
+/* Inicio de Team */
+.team{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    background-color: lightgray;
+}
+
+.teammember{
+    text-align: center;
+    width: fit-content;
+}
+
+.mname{
+    font-size: 16px;
+    margin: 0;
+    padding-bottom: 7px;
+    padding-top: 15px;
+}
+
+.mpos{
+    font-size: 14px;
+    color: gray;
+    margin: 0;
+}
+
+.mdesc{
+    font-size: 12px;
+}
+
+.member{
+    border-radius: 100px;
+    border: solid 5px white;
+}
+
+.teamrow{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-top: 25px;
+}
+
+.teamcont{
+    width: 65%;
+}
+/* Fin de Team */
+
+/* Inicio de RecentPosts */
+.recentp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    background-color: white;
+}
+
+.postr{
+    display: flex;
+    width: 65%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.author{
+    display: flex;
+    margin-top: 15px;
+}
+
+.pimage{
+    width: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.mpos, .mname, .pname, .adate{
+    margin: 0;
+    padding: 0;
+    margin-top: 8px;
+}
+
+.post{
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.aimage{
+    width: 50px;
+    border-radius: 100px;
+}
+
+.ainfo{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    justify-content: top;
+    margin-left: 10px;
+}
+
+.postcont{
+    margin-left: 20px;
+}
+
+.pname{
+    font-size: 18px;
+}
+
+.adate{
+    font-size: 12px;
+    color: gray;
+}
+
+/* Fin de RecentPosts */
+
+/* Inicio de Testimonials */
+.testimonials{
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+}
+
+.testcont{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+}
+
+.testimonycard{
+    display: flex;
+}
+
+.testimony{
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 50px;
+    padding-right: 20px;
+    padding-left: 50px;
+}
+
+.testimonyimg{
+    height: 40px;
+    width: auto;
+    border-radius: 100px;
+    border: solid 5px lightgray;
+}
+
+.name{
+    margin: 0;
+    margin-left: 10px;
+}
+
+.job{
+    margin: 0;
+    font-size: 14px;
+    color: lightslategray;
+    margin-left: 10px;
+}
+
+.testinfo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.stars{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.testimonyspan::before{
+    content: "\e977"; /* Contenido del logo */
+    color: lightcoral;
+    margin-right: 5px;
+    font-size: 25px;
+}
+
+.testimonyspan::after{
+    content: "\e978"; /* Contenido del logo */
+    color: lightcoral;
+    font-size: 25px;
+    margin-left: 5px;
+
+}
+
+.star::after{
+    content: "\e978"; /* Contenido del logo */
+    color: goldenrod;
+}
+
+.circles{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.circles .redcircle{
+    height: 10px;
+    width: 10px;
+}
+
+.graycircle{
+    background-color: lightgray;
+    height: 10px;
+    width: 10px;
+    border-radius: 100px;
+    margin-left: 5px;
+}
+/* Fin de Testimonials */
+
+/* Inicio de Hero */
+.herom{
+    display: flex;
+    justify-content: center;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.hero p{
+    color: gray;
+}
+
+.bluebtn{
+    background-color: blue;
+    border-radius: 10px;
+    padding: 10px 25px;
+    border: none;
+    color: white;
+    margin-right: 10px;
+}
+
+.play::before{
+    content: "\e978"; /* Contenido del logo */
+    color: blue;
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.hero h1 span{
+    color: blue;
+}
+
+.cardtitle{
+    font-size: 18px;
+}
+
+.cardtext{
+    font-size: 14px;
+}
+
+.wave::before{
+    content: "\e978"; /* Contenido del logo */
+    color: blue;
+    font-size: 40px;
+}
+
+.square::before{
+    content: "\e978"; /* Contenido del logo */
+    color: blue;
+    font-size: 40px;
+}
+
+.calendarr::before{
+    content: "\e978"; /* Contenido del logo */
+    color: blue;
+    font-size: 40px;
+}
+
+.signall::before{
+    content: "\e978"; /* Contenido del logo */
+    color: blue;
+    font-size: 40px;
+}
+
+.herocards{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.cardscont{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+.hitemscont{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+.hitems{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.hitemb{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 170px;
+    height: 90px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+.hitem{
+    background-color: white;
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 170px;
+    height: 90px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+.hitemb p, .hitem p{
+    margin: 0;
+    padding: 0;
+}
+
+.binocularss::before{
+    content: "\e978"; /* Contenido del logo */
+    color: white;
+    font-size: 40px;
+    margin: 0;
+}
+
+.sunn::before{
+    content: "\e978"; /* Contenido del logo */
+    color: greenyellow;
+    font-size: 40px;
+    margin: 0;
+}
+
+.box::before{
+    content: "\e978"; /* Contenido del logo */
+    color: purple;
+    font-size: 40px;
+    margin: 0;
+}
+
+.shape::before{
+    content: "\e978"; /* Contenido del logo */
+    color: red;
+    font-size: 40px;
+    margin: 0;
+}
+
+.pres::before{
+    content: "\e978"; /* Contenido del logo */
+    color: blue;
+    font-size: 40px;
+    margin: 0;
+}
+
+.map::before{
+    content: "\e978"; /* Contenido del logo */
+    color: orange;
+    font-size: 40px;
+    margin: 0;
+}
+
+.heroteam{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.heroteam h3{
+    margin: 0;
+    padding: 0;
+    color: gray;
+}
+
+.heroteamdesc{
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    color: lightgray;
+}
+
+.heromember{
+    border-radius: 10px;
+    width: 320px;
+}
+
+.herotinfo{
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: -35px;
+}
+
+.teammember{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.herotname{
+    color: black;
+    font-size: 18px;
+    margin: 0;
+}
+
+.herotdesc{
+    font-size: 15px;
+    color: gray;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.heroteamrow{
+    display: flex;
+    margin-top: 35px;
+    justify-content: space-evenly;
+    width: 70%;
+}
+/* Fin de Hero */
+
+/* Inicio de FlexStart */
+.fscolumn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fsminititle{
+    color: blue;
+    font-size: 12px;
+    margin: 0;
+}
+
+.fscolumn h2{
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    color: darkblue;
+}
+
+.fsinfotitle{
+    color: darkblue;
+    font-size: 20px;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.fsinfotext{
+    color: black;
+    font-size: 14px;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.fsinfocard{
+    text-align: center;
+    box-shadow: 0px 0px 5px 0px rgba(217, 210, 210, 0.75);
+    padding: 20px;
+}
+
+.fsinfocards{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    margin-top: 20px;
+}
+/* Fin de FlexStart */
+
+/* Inicio de Shuffle */
+.shuffle{
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+}
+
+.shcards{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    margin-top: 20px;
+}
+
+.shcard{
+    background-color: white;
+    padding: 20px;
+    width: 200px;
+}
+
+.shcard p{
+    font-size: 12px;
+}
+
+.happyface, .headphone, .notebook, .profile{
+    font-size: 35px;
+    color: gray;
+}
+
+.happyface::before{
+    font-size: 35px;
+    color: lightgreen;
+    content: "\e978"; /* Contenido del logo */
+    margin-right: 12px;
+}
+
+.profile::before{
+    font-size: 35px;
+    color: lightgreen;
+    content: "\e978"; /* Contenido del logo */
+    margin-right: 12px;
+}
+
+.notebook::before{
+    font-size: 35px;
+    color: lightgreen;
+    content: "\e978"; /* Contenido del logo */
+    margin-right: 12px;
+}
+
+.headphone::before{
+    font-size: 35px;
+    color: lightgreen;
+    content: "\e978"; /* Contenido del logo */
+    margin-right: 12px;
+}
+
+.twoarrows{
+    color: lightgrey;
+    font-size: 14px;
+}
+
+.twoarrows::after{
+    color: lightgrey;
+    content: "\e978"; /* Contenido del logo */
+    font-size: 14px;
+    margin-left: 5px;
+}
+/* Fin de Shuffle */
+
+/* Inicio de BizLand */
+
+/* inicio de header */
+.fb::before{
+    content: "\ea90"; /* Contenido del logo */
+    color: lightgrey;
+    margin-right: 5px;
+}
+
+.linkedin::before{
+    content: "\eaca"; /* Contenido del logo */
+    color: lightgrey;
+    margin-right: 5px;
+}
+
+.ig::before{
+    content: "\ea92"; /* Contenido del logo */
+    color: lightgrey;
+    margin-right: 5px;
+}
+
+.twitter::before{
+    content: "\ea96"; /* Contenido del logo */
+    color: lightgrey;
+    margin-right: 5px;
+}
+
+.bizheadcont{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headtext{
+    font-size: 14px;
+    color:  lightgrey;
+    margin-right: 15px;
+}
+
+.phonee::before{
+    content: "\ea96"; /* Contenido del logo */
+    color: lightgrey;
+    margin-right: 5px;
+}
+
+.maill::before{
+    content: "\ea96"; /* Contenido del logo */
+    color: lightgrey;
+    margin-right: 5px;
+}
+
+.bizhead{
+    display: flex;
+    background-color: blue;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+/* Fin de header */
+
+/* inicio de nav */
+.biznav{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+.biznavcont{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.startbtn{
+    background-color: transparent;
+    border: none;
+    color: white;   
+}
+
+.logo{
+    flex-grow: 1;
+    font-size: 30px;
+    padding-right: 120px;
+    padding-left: 80px;
+}
+
+.logo span{
+    color: blue;
+}
+
+.nav{
+    width: 40%;
+    padding-right: 80px;
+    display: flex;
+}
+
+.biznav .nav ul{
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px;
+    list-style: none;
+    align-items: center;
+    height: auto;
+    flex-grow: 1;
+}
+
+.flecha::after{
+    content: "\e906"; /* Contenido del logo */
+    margin-left: 5px;
+}
+
+.homee{
+    color: blue;
+    border-bottom: solid 2px blue;
+    padding: 0px 5px;
+}
+/* Fin de nav */
+
+.bizpbcont{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.bizpercbars{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.pbrow{
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+}
+
+.pb{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.pb div, p{
+    margin: 0;
+    padding: 0;
+}
+
+.pb p{
+    margin-bottom: 8px;
+    font-size: 10px;
+}
+
+.pbtextcont{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.pbrow2{
+    display: flex;
+    width: 100%;
+}
+
+.pbblue{
+    background-color: blue;
+    height: 8px;
+}
+
+.pblight{
+    background-color: lightblue;
+    height: 8px;
+}
+
+.p100{
+    width: 100%;
+}
+
+.p80{
+    width: 80%;
+}
+
+.p20{
+    width: 20%;
+}
+
+.p0{
+    width: 0%;
+}
+
+.p90{
+    width: 90%;
+}
+
+.p10{
+    width: 10%;
+}
+
+.p25{
+    width: 25%;
+}
+
+.p75{
+    width: 75%;
+}
+
+.p55{
+    width: 55%;
+}
+
+.p45{
+    width: 45%;
+}
+/* Fin de PBARS */
+
+.bizstats{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.bizstatscont{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+}
+
+.bizstatsconti{
+    background-color: lightblue;
+    text-align: center;
+    width: 100%;
+    padding: 35px 0px 20px 0;
+    margin-top: -20px;
+}
+
+.bizstatitem{
+    width: 23%;
+    text-align: center;
+}
+
+.bizstatstitle{
+    font-size: 32px;
+}
+
+.bizstatstext{
+    font-size: 13px;
+}
+
+.happyface2::before{
+    content: "\e906"; /* Contenido del logo */
+    font-size: 30px;
+    background-color: blue;
+    border-radius: 100px;
+    padding: 5px 10px;
+    border: solid 3px white;
+    color: white;
+}
+
+.notebook2::before{
+    content: "\e906"; /* Contenido del logo */
+    font-size: 30px;
+    background-color: blue;
+    border-radius: 100px;
+    padding: 5px 10px;
+    border: solid 3px white;
+    color: white;
+}
+
+.headphone2::before{
+    content: "\e906"; /* Contenido del logo */
+    font-size: 30px;
+    background-color: blue;
+    border-radius: 100px;
+    padding: 5px 10px;
+    border: solid 3px white;
+    color: white;
+}
+
+.profile2::before{
+    content: "\e906"; /* Contenido del logo */
+    font-size: 30px;
+    background-color: blue;
+    border-radius: 100px;
+    padding: 5px 10px;
+    border: solid 3px white;
+    color: white;
+}
+
+/* Fin de Stats */
+
+.bizservices{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.bizsecname{
+    color: blue;
+    font-size: 12px;
+    background-color: lightblue;
+    width: fit-content;
+    padding: 7px 15px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
+.bizsectitle{
+    margin: 0;
+    padding: 0;
+    font-size: 32px;
+} 
+
+.bizsectitle span{
+    color: blue;
+}
+
+.bizsecsubtitle{
+    margin-top: 10px;
+    font-size: 15px;    
+}
+
+.bizservicerow{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    margin-top: 15px;
+}
+
+.bizservice{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightblue;
+    text-align: center;
+    justify-content: center;
+    width: 31%;
+    height: 250px;
+}
+
+.serviceico{
+    color: blue;
+    background-color: lightblue;
+    border: 1px solid lightgray;
+    font-size: 20px;
+    margin-bottom: 10px;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    align-self: center;
+}
+
+.bizcardtitle{
+    font-size: 26px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.bizservice p{
+    font-size: 13px;
+    margin: 0;
+}
+
+.basketball::before{
+    content: "\e906"; /* Contenido del logo */
+}
+
+.meter::before{
+    content: "\e906"; /* Contenido del logo */
+}
+
+.document::before{
+    content: "\e906"; /* Contenido del logo */
+}
+
+
+
+
+.lastpractice{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.lastcont{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.lasttitle{
+    color: blue;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.lasttest{
+    display: flex;
+    flex-direction: column;
+}
+
+.laststar::before{
+    content: "\e906"; /* Contenido del logo */
+    color: goldenrod;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    margin-left: 3px;
+}
+
+.lastsubt{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.lasttext{
+    font-size: 15px;
+    margin-bottom: 7px;
+}
+
+.lastimg{
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+    align-self: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.lastrow{
+    display: flex;
+    width: fit-content;
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+
+
